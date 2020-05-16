@@ -1,9 +1,1 @@
-def getInput():
-    try:
-        txt = input("请输入整数：")
-        while eval(txt) != int(txt):
-            txt = input("")
-    except:
-        return getInput()
-    return eval(txt)
-print(getInput())
+本程序使用python编写的一个Windows系统下快速启动项目。
